@@ -1,0 +1,24 @@
+.header {
+    margin: 1rem 0;
+    &__nav {
+        &__link {
+            margin-right: 1.2rem;
+            text-decoration: none;
+            color: darkslategrey;
+            font-size: 1.6rem;
+        }
+    }
+}
+
+.app-main {
+    flex-grow: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+
+    &__text {
+        font-size: 1rem;
+    }
+}

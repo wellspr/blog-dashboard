@@ -1,0 +1,25 @@
+#toolbar,
+.editor-container {
+    border-color: lightgray !important;
+}
+
+.toolbar {
+    display: flex;
+}
+
+.toolbar__group {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.stacked {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-right: 1px solid lightgray;
+    padding: 0 5px;
+}
